@@ -1,7 +1,12 @@
+# PyBank Assignment
+# Importing modules os and csv
 import csv
 import os
 
+# Setting the path for the CSV file in csvpath
 csvpath = os.path.join("Resources","budget_data.csv")
+
+# Creating lists to store data and initializing
 total_months = 0
 total_amount = 0
 firstline = True
