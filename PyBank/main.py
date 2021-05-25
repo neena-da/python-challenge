@@ -6,7 +6,7 @@ import os
 # Set the path for the CSV file in csvpath
 csvpath = os.path.join("Resources","budget_data.csv")
 
-# Create lists to store data and initialize
+# Create lists, dictionaries and variables to store data and initialize
 total_months = 0
 total_amount = 0
 firstline = True
