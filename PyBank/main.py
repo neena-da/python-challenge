@@ -29,8 +29,8 @@ with open(csvpath) as csvfile:
 			firstline = False
 			old_value = int(row[1])
 		else:
-			current_value = int(row[1])   # from 2nd row, calculate the differene in profits/loss and save in a dictionary
-			change_dict["Date"].append(row[0])  
+			current_value = int(row[1])   # from 2nd row, calculate the difference in profits/loss 
+			change_dict["Date"].append(row[0])   # save in a dictionary with dates and difference as keys
 			change_dict["Changes"].append((current_value)-(old_value))
 			old_value = current_value
 
@@ -38,7 +38,7 @@ sum_changes = sum(change_dict["Changes"])
 num_changes = len(change_dict["Changes"])
 average = round((sum_changes / num_changes),2) # find the average of the change in profit/loss using dictionary
 
-# find the greatest increase and decrease in Profits from dictionary
+# find the greatest increase and decrease in Profits from dictionary. Also find the corressponding dates using index
 maximum = max(change_dict["Changes"])
 minimum = min(change_dict["Changes"])
 index_maximum = (change_dict["Changes"].index(maximum))
