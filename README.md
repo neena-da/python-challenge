@@ -91,7 +91,7 @@ for row in csvreader:
 	for candidate in candidates:       
     		s.add(candidate)
 ```
-  * Store the unique candidates and total votes in a dictionary
+  * Store the unique candidates and total votes in a dictionary. Sort in descending order of the Total votes
 ```
 	for item in list(s):
     		dict_of_counts[item] = candidates.count(item)
