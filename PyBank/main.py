@@ -49,7 +49,7 @@ date_minimum = (change_dict["Date"][index_minimum])
 # Display the output to show the total months, amount, average change, greatest increase and decrease in profit
 print("Financial Analysis")
 print("-----------------------------")
-print(f"Total months: {total_months}")
+print(f"Total Months: {total_months}")
 print(f"Total: {currency(total_amount)}")       # calling function to format currency
 print(f"Average Change: {currency(average)}")   # calling function to format currency
 print(f"Greatest Increase in Profits: {date_maximum} ({currency(maximum)})")  # calling function to format currency
@@ -64,7 +64,7 @@ with open(output_file, 'w') as text:
     text.write("\n")
     text.write("-----------------------------")
     text.write("\n")
-    text.write(f"Total months: {total_months}")
+    text.write(f"Total Months: {total_months}")
     text.write("\n")
     text.write(f"Total: {currency(total_amount)}")
     text.write("\n")

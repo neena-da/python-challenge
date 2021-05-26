@@ -61,7 +61,7 @@ print("-----------------------------")
 for i in range(len(keys)):
     print(f"{keys[i]} : {percent(values[i])}  ({values[i]})")
 print("-----------------------------")
-print(f"Winner : {winner}")
+print(f"Winner: {winner}")
 print("-----------------------------")
 
 # Set path for the output text file
