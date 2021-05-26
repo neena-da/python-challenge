@@ -6,11 +6,11 @@
 
 1. Created a new repository for the project called python-challenge in Github. Cloned the repository to the local computer.
 
-2. Created new directories within python challenge for PyBank and PyPoll
+2. Created new directories within python-challenge for PyBank and PyPoll
 
 3. Inside each of the of the 2 new directories, created a main.py file, a folder Resources to hold the csv file and and a folder Analysis to save the output file into.
 
-4. Pushed the updated to github main
+4. Executed the python scripts for both PyBank and PyPoll
 
 ### PyBank
 
